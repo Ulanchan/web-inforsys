@@ -1,0 +1,122 @@
+.iconify{
+    font-size: 30px;
+    color: #5a4fdc;
+}
+.icon{
+    background: rgba(90,79,220,.12);
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+p{
+    color:#778899;
+    line-height: 1.8;
+}
+h2{
+    font-size: 19px;
+    margin-top: 10px;
+}
+i {
+    font-size: 16px;
+    font-style:normal;
+    font-family: 'Courier New', Courier, monospace;
+    color:#e83e8c;    
+}
+.awal {
+    h4{
+        font-size: 16px;
+        margin-bottom: 0;
+        .iconify{
+            font-size: 30px;
+        }
+    }
+    h3{
+        font-size: 1.75rem;
+        line-height: 1.2;
+        margin-right: 50px;
+        font-weight: 700;
+        margin-bottom: 0;
+        margin-top: -13rem;
+    }
+    p {
+        font-size: 17px;
+        margin-right: 80px;
+        margin-top: -15rem
+    }
+    img{
+        vertical-align: middle;
+    }
+}
+.tengah {
+    padding-bottom: 50px;
+    p{
+        font-size: 16px;
+        margin-bottom: -4rem;
+    } 
+}
+.konten{
+    .kepala{
+        h1{
+            font-size: 2.5rem;
+            font-weight: 600;
+            text-shadow: 1px 2px 3px rgb(59 57 80 / 20%);
+            margin-right: 30rem;
+            line-height: 1.4;
+
+        }
+        p{
+            font-size: 16px;
+        }
+        h3{
+            font-size: 1.75rem;
+            line-height: 1.2;
+            margin-right: 50px;
+            font-weight: 500;
+            text-shadow: 1px 2px 3px rgb(59 57 80 / 20%);
+        }
+    }
+        .uk-card{
+            border-radius:5px;
+            &:hover{
+                background-color:#5a4fdc;
+            
+                .icon{
+                    background: #7e77cca8;
+                }
+                .iconify{
+                    color: #f8f9fa; 
+                }
+                h2{
+                    color: #f8f9fa;
+                }
+                p{
+                    line-height: 1.8;
+                    color: #f8f9fa;
+                }
+        }
+    }
+}
+
+@media (max-width:900px){
+    .awal{
+        h3{
+            margin-top: 0;
+        }
+        p{
+            margin-top: 0;
+        }
+    }
+    .konten{
+        .kepala{
+            h1{
+                font-size: 2.0rem;
+                margin-right: 0;
+            }
+            h3{
+                margin-right: 0;
+            }
+        }
+    }
+}
